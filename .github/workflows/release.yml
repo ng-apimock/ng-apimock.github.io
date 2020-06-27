@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     branches:
-      - master
+      - develop
 
 jobs:
   release:
@@ -23,3 +23,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+          publish_branch: master
