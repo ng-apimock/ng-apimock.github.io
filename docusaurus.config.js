@@ -110,7 +110,7 @@ module.exports = {
                     sidebarPath: require.resolve('./sidebars.js'),
                     showLastUpdateAuthor: true,
                     editUrl:
-                        'https://github.com/ng-apimock/docs/master/',
+                        'https://github.com/ng-apimock/ng-apimock.github.io/tree/develop/docs',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
