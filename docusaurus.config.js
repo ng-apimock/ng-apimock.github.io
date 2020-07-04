@@ -6,6 +6,7 @@ module.exports = {
     favicon: 'img/logo.svg',
     organizationName: 'ng-apimock',
     projectName: 'core',
+    plugins: ['@docusaurus/plugin-google-analytics'],
     scripts: [
         {
             src:
@@ -15,6 +16,9 @@ module.exports = {
     ],
     themeConfig: {
         disableDarkMode: true,
+        googleAnalytics: {
+            trackingID: 'UA-171656203-1'
+        },
         navbar: {
             title: 'ng-apimock',
             logo: {
