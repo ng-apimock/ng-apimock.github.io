@@ -62,11 +62,58 @@ Looking at the following request configuration
         }
     }
 }
-
 ```
 the request will only match when the 
 - Content-type header is of typ 'application/json'
 - The body contains an item that matches the regex
+
+### Chaining responses
+[@ng-apimock/core](https://github.com/ng-apimock/core) can also chain mock responses using then clauses.
+When a mock is called and a then clause is provided, the clause will be checked. When the clause matches the current state, it will update the mocks accordingly.
+
+Looking at the following response configuration
+```json
+{
+    "name": "some mock",
+    "request": {
+        "url": "^/some/thing$",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "body": {
+            "item": "^[a-zA-Z]{3,10}$"
+        }
+    },
+    "responses": {
+        "ok": {
+            "default": true,
+            "then": {
+                "mocks": [ { 
+                    "name": "some-mock", // optional, defaults to the current mock
+                    "scenario": "internal_server_error"
+                }, { 
+                    "name": "some-other-mock", 
+                    "scenario": "some-scenario"
+                }],
+                "times": 3 // optional
+            }
+          }
+        },
+        "internal_server_error": {
+            "status": 500
+        }
+    }
+}
+```
+
+When this mock is called 3 times, 2 things will happen for each mock in the list:
+1. the scenario will be selected.
+2. the counter will be reset to 0 
+
+So for:
+- the mock with name `some-mock` the `internal_server_error` scenario will be selected.
+- the mock with name `some-other-mock` the `some-scenario` scenario will be selected.
 
 ### Returning file data
 [@ng-apimock/core](https://github.com/ng-apimock/core) also has the ability to return a file instead of data.
@@ -110,7 +157,7 @@ Selecting a scenario, delaying a response or echoing a request can be done by us
 ```json
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "description": "Mock",
+    "description": "Mock.",
     "properties": {
         "name": {
             "type": "string"
@@ -135,7 +182,7 @@ Selecting a scenario, delaying a response or echoing a request can be done by us
     "type": "object",
     "definitions": {
         "MockRequest": {
-            "description": "Mock request",
+            "description": "Mock request.",
             "properties": {
                 "url": {
                     "type": "string"
@@ -162,7 +209,7 @@ Selecting a scenario, delaying a response or echoing a request can be done by us
             "type": "object"
         },
         "MockResponse": {
-            "description": "Mock response",
+            "description": "Mock response.",
             "properties": {
                 "data": {
                     "anyOf": [
@@ -197,13 +244,50 @@ Selecting a scenario, delaying a response or echoing a request can be done by us
                 },
                 "statusText": {
                     "type": "string"
+                },
+                "then": {
+                    "$ref": "#/definitions/MockResponseThenClause"
                 }
             },
+            "type": "object"
+        },
+        "MockResponseThenClause": {
+            "properties": {
+                "criteria": {
+                    "$ref": "#/definitions/MockResponseThenClauseCriteria"
+                },
+                "mocks": {
+                    "items": {
+                        "$ref": "#/definitions/MockResponseThenClauseMockSelection"
+                    },
+                    "minItems": 1,
+                    "type": "array"
+                }
+            },
+            "required": ["mocks"],
+            "type": "object"
+        },
+        "MockResponseThenClauseCriteria": {
+            "properties": {
+                "times": {
+                    "type": "number"
+                }
+            },
+            "required": ["times"],
+            "type": "object"
+        },
+        "MockResponseThenClauseMockSelection": {
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "scenario": {
+                    "type": "string"
+                }
+            },
+            "required": ["scenario"],
             "type": "object"
         }
     }
 }
-
-
-
 ```
