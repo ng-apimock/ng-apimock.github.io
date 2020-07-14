@@ -2,6 +2,14 @@
 id: installation
 title: Installation
 sidebar_label: Installation
+description: How do I use @ng-apimock?
+keywords:
+  - ng-apimock
+  - core
+  - mocks
+  - variables
+  - presets
+  - api
 ---
 Ng-apimock is essentially a set of npm [packages](https://github.com/ng-apimock) that can be installed over npm.
 

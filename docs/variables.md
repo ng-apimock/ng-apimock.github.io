@@ -2,6 +2,13 @@
 id: variables
 title: Variables
 sidebar_label: Variables
+description: How do I use variables @ng-apimock?
+keywords:
+  - ng-apimock
+  - mocks
+  - variables
+  - response
+  - api
 ---
 Response data can contain time sensitive information. For those cases, static mock data is not flexible enough. 
 [@ng-apimock/core](https://github.com/ng-apimock/core) can interpolate data for you. If you want to interpolate specific parts of your response data, you need to surround the part with `%%` like this:

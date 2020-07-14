@@ -2,6 +2,15 @@
 id: mocks
 title: Mocks
 sidebar_label: Mocks
+description: How do I write mocks using @ng-apimock?
+keywords:
+  - ng-apimock
+  - mocks
+  - chaining
+  - request
+  - response
+  - files
+  - api
 ---
 A mock in [@ng-apimock/core](https://github.com/ng-apimock/core) is represented in a json file that follows the request / response principle.
 

@@ -2,6 +2,14 @@
 id: presets
 title: Presets
 sidebar_label: Presets
+description: How do I write presets using @ng-apimock?
+keywords:
+  - ng-apimock
+  - presets
+  - request
+  - response
+  - files
+  - api
 ---
 A preset in [@ng-apimock/core](https://github.com/ng-apimock/core) is represented in a json file.
 It allows you to set the state of one or multiple mocks and set variables all at once.
