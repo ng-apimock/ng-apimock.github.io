@@ -15,13 +15,13 @@ keywords:
 A mock in [@ng-apimock/core](https://github.com/ng-apimock/core) is represented in a json file that follows the request / response principle.
 
 ## Writing a mock file
-Mocks in [@ng-apimock/core](https://github.com/ng-apimock/core) are written in json.
+Mocks in [@ng-apimock/core](https://github.com/ng-apimock/core) are written in json or javascript.
 There are a few rules to follow when writing a mock file.
 1. It has a unique name
 2. It has a request section that at least specifies a url and method
 3. It has at least one response set to default: true
 
-So writing a simple mock could look like this:
+So writing a simple mock in json format could look like this:
 ```json
 {
     "name": "some mock",
@@ -41,6 +41,30 @@ So writing a simple mock could look like this:
         }
     }   
 }
+```
+or in javascript format like this:
+
+```javascript
+const data = require('./data.json');
+
+module.exports = {
+    "name": "some mock",
+    "request": {
+        "url": "/some/thing",
+        "method": "GET"
+    },
+    "responses": {
+        "ok": {
+            "default": true,
+            "data": {
+                "some": data.some
+            }   
+        },
+        "internal_server_error": {
+            "status": 500
+        }
+    }   
+};
 ```
 Writing a mock should always follow the [json schema](#json-schema).
 
@@ -155,7 +179,7 @@ Looking at the following response
 The response will return the csv file `some.csv` with the specified headers.
 :::note 
 
-The file will be resolved relative to the location of the mock.json file.
+The file will be resolved relative to the location of the mock file.
 
 :::
 
