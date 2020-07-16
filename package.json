@@ -3,10 +3,14 @@
   "description": "Docs for @ng-apimock",
   "version": "1.0.0",
   "scripts": {
+    "generateDocs": "node scripts/docs/generateDocs.js",
+    "prestart": "npm run generateDocs",
     "start": "docusaurus start",
+    "prebuild": "npm run generateDocs",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy"
+    "deploy": "docusaurus deploy",
+    "docs": "docusaurus docs:version 2.2.0"
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.58",

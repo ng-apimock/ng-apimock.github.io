@@ -1,0 +1,336 @@
+{
+  "docs": [
+    {
+      "packageName": "@ng-apimock/core",
+      "path": "docs",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "installation.md",
+      "metadata": {
+        "id": "installation",
+        "title": "Installation",
+        "sidebar_label": "Installation",
+        "description": "How do I use @ng-apimock?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "getting started",
+          "mocks",
+          "variables",
+          "presets"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "path": "docs",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "mocks.md",
+      "metadata": {
+        "id": "mocks",
+        "title": "Mocks",
+        "sidebar_label": "Mocks",
+        "description": "How do I write mocks?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "mocks",
+          "variables",
+          "chaining",
+          "request",
+          "response"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "path": "docs",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "presets.md",
+      "metadata": {
+        "id": "presets",
+        "title": "presets",
+        "sidebar_label": "presets",
+        "description": "How do I write presets?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "presets",
+          "mocks",
+          "variables"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "path": "docs",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "variables.md",
+      "metadata": {
+        "id": "variables",
+        "title": "variables",
+        "sidebar_label": "variables",
+        "description": "How do I write variables?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "variables",
+          "mocks",
+          "variables"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/docker",
+      "path": "docs",
+      "githubUrl": "https://github.com/ng-apimock/docker",
+      "branchName": "master",
+      "fileName": "docker.md",
+      "metadata": {
+        "id": "docker",
+        "title": "Docker",
+        "sidebar_label": "Docker",
+        "description": "How do I use @ng-apimock as a docker container?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "docker"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "group": "api",
+      "path": "docs/api",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "delay-response.md",
+      "metadata": {
+        "id": "delay-response",
+        "title": "Delay response",
+        "sidebar_label": "Delay response",
+        "description": "How do I delay a response?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "mocks",
+          "delay",
+          "response"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "group": "api",
+      "path": "docs/api",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "delete-variable.md",
+      "metadata": {
+        "id": "delete-variable",
+        "title": "Delete variable",
+        "sidebar_label": "Delete variable",
+        "description": "How do I delete a variable?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "variable",
+          "delete"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "group": "api",
+      "path": "docs/api",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "echo-request.md",
+      "metadata": {
+        "id": "echo-request",
+        "title": "Echo request",
+        "sidebar_label": "Echo request",
+        "description": "How do I echo a request?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "echo",
+          "request"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "group": "api",
+      "path": "docs/api",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "reset-mocks-to-default.md",
+      "metadata": {
+        "id": "reset-mocks-to-default",
+        "title": "Reset mocks to default",
+        "sidebar_label": "Reset mocks to default",
+        "description": "How do I reset mocks to default?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "reset",
+          "mocks",
+          "default"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "group": "api",
+      "path": "docs/api",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "select-preset.md",
+      "metadata": {
+        "id": "select-preset",
+        "title": "Select preset",
+        "sidebar_label": "Select preset",
+        "description": "How do I select a preset?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "select",
+          "preset",
+          "mocks",
+          "variables"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "group": "api",
+      "path": "docs/api",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "select-scenario.md",
+      "metadata": {
+        "id": "select-scenario",
+        "title": "Select scenario",
+        "sidebar_label": "Select scenario",
+        "description": "How do I select a scenario?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "mocks",
+          "select",
+          "scenario"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "group": "api",
+      "path": "docs/api",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "set-mocks-to-passThrough.md",
+      "metadata": {
+        "id": "set-mocks-to-passThrough",
+        "title": "Set mocks to passThrough",
+        "sidebar_label": "Set mocks to passThrough",
+        "description": "How do I set mocks to passThrough?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "mocks",
+          "select",
+          "passThrough"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "group": "api",
+      "path": "docs/api",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "set-variable.md",
+      "metadata": {
+        "id": "set-variable",
+        "title": "Set variable",
+        "sidebar_label": "Set variable",
+        "description": "How do I set a variable?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "mocks",
+          "select",
+          "variable"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "group": "api",
+      "path": "docs/api",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "set-variables.md",
+      "metadata": {
+        "id": "set-variables",
+        "title": "Set variables",
+        "sidebar_label": "Set variables",
+        "description": "How do I set variables?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "mocks",
+          "select",
+          "variable",
+          "variables"
+        ]
+      }
+    }
+  ],
+  "sidebar": {
+    "type": "category",
+    "label": "API",
+    "items": [
+      "api/select-scenario",
+      "api/delay-response",
+      "api/echo-request",
+      "api/set-variable",
+      "api/set-variables",
+      "api/delete-variable",
+      "api/select-preset",
+      "api/reset-mocks-to-default",
+      "api/set-mocks-to-passThrough"
+    ]
+  }
+}
