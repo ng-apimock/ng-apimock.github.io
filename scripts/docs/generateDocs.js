@@ -36,6 +36,7 @@ const githubRawHost = 'https://raw.githubusercontent.com/';
             `title: ${doc.metadata.title}`,
             `sidebar_label: ${doc.metadata.sidebar_label}`,
             `description: ${doc.metadata.description}`,
+            `custom_edit_url: ${doc.metadata.custom_edit_url}`,
             'keywords:',
             ...doc.metadata.keywords.map((keyword) => ` - ${keyword}`),
             '---',

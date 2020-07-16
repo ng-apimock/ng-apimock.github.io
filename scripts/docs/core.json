@@ -11,6 +11,7 @@
         "id": "installation",
         "title": "Installation",
         "sidebar_label": "Installation",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/installation.md",
         "description": "How do I use @ng-apimock?",
         "keywords": [
           "ng-apimock",
@@ -34,6 +35,7 @@
         "id": "mocks",
         "title": "Mocks",
         "sidebar_label": "Mocks",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/mocks.md",
         "description": "How do I write mocks?",
         "keywords": [
           "ng-apimock",
@@ -58,6 +60,7 @@
         "id": "presets",
         "title": "presets",
         "sidebar_label": "presets",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/presets.md",
         "description": "How do I write presets?",
         "keywords": [
           "ng-apimock",
@@ -80,6 +83,7 @@
         "id": "variables",
         "title": "variables",
         "sidebar_label": "variables",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/variables.md",
         "description": "How do I write variables?",
         "keywords": [
           "ng-apimock",
@@ -101,6 +105,7 @@
         "id": "docker",
         "title": "Docker",
         "sidebar_label": "Docker",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/docker.md",
         "description": "How do I use @ng-apimock as a docker container?",
         "keywords": [
           "ng-apimock",
@@ -122,6 +127,7 @@
         "id": "delay-response",
         "title": "Delay response",
         "sidebar_label": "Delay response",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/api/delay-response.md",
         "description": "How do I delay a response?",
         "keywords": [
           "ng-apimock",
@@ -145,6 +151,7 @@
         "id": "delete-variable",
         "title": "Delete variable",
         "sidebar_label": "Delete variable",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/api/delete-variable.md",
         "description": "How do I delete a variable?",
         "keywords": [
           "ng-apimock",
@@ -167,6 +174,7 @@
         "id": "echo-request",
         "title": "Echo request",
         "sidebar_label": "Echo request",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/api/echo-request.md",
         "description": "How do I echo a request?",
         "keywords": [
           "ng-apimock",
@@ -189,6 +197,7 @@
         "id": "reset-mocks-to-default",
         "title": "Reset mocks to default",
         "sidebar_label": "Reset mocks to default",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/api/reset-mocks-to-default.md",
         "description": "How do I reset mocks to default?",
         "keywords": [
           "ng-apimock",
@@ -212,6 +221,7 @@
         "id": "select-preset",
         "title": "Select preset",
         "sidebar_label": "Select preset",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/api/select-preset.md",
         "description": "How do I select a preset?",
         "keywords": [
           "ng-apimock",
@@ -230,12 +240,14 @@
       "path": "docs/api",
       "githubUrl": "https://github.com/ng-apimock/core",
       "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+
       "branchName": "master",
       "fileName": "select-scenario.md",
       "metadata": {
         "id": "select-scenario",
         "title": "Select scenario",
         "sidebar_label": "Select scenario",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/api/select-scenario.md",
         "description": "How do I select a scenario?",
         "keywords": [
           "ng-apimock",
@@ -259,6 +271,7 @@
         "id": "set-mocks-to-passThrough",
         "title": "Set mocks to passThrough",
         "sidebar_label": "Set mocks to passThrough",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/api/set-mocks-to-passThrough.md",
         "description": "How do I set mocks to passThrough?",
         "keywords": [
           "ng-apimock",
@@ -282,6 +295,7 @@
         "id": "set-variable",
         "title": "Set variable",
         "sidebar_label": "Set variable",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/api/set-variable.md",
         "description": "How do I set a variable?",
         "keywords": [
           "ng-apimock",
@@ -305,6 +319,7 @@
         "id": "set-variables",
         "title": "Set variables",
         "sidebar_label": "Set variables",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/api/set-variables.md",
         "description": "How do I set variables?",
         "keywords": [
           "ng-apimock",

@@ -6,12 +6,14 @@
       "group": "plugins",
       "githubUrl": "https://github.com/ng-apimock/base-client",
       "npmUrl": "https://www.npmjs.com/package/@ng-apimock/base-client",
+
       "branchName": "master",
       "fileName": "custom-plugin.md",
       "metadata": {
         "id": "custom-plugin",
         "title": "Custom plugin",
         "sidebar_label": "Custom plugin",
+        "custom_edit_url": "https://github.com/ng-apimock/base-client/edit/master/docs/custom-plugin.md",
         "description": "How do I create a custom plugin for @ng-apimock?",
         "keywords": [
           "ng-apimock",
@@ -34,6 +36,7 @@
         "id": "cypress-plugin",
         "title": "Cypress plugin",
         "sidebar_label": "Cypress plugin",
+        "custom_edit_url": "https://github.com/ng-apimock/cypress-plugin/edit/master/docs/cypress-plugin.md",
         "description": "How do I use the cypress plugin for @ng-apimock?",
         "keywords": [
           "ng-apimock",
@@ -52,12 +55,14 @@
       "group": "plugins",
       "githubUrl": "https://github.com/ng-apimock/protractor-plugin",
       "npmUrl": "https://www.npmjs.com/package/@ng-apimock/protractor-plugin",
+
       "branchName": "master",
       "fileName": "protractor-plugin.md",
       "metadata": {
         "id": "protractor-plugin",
         "title": "Protractor plugin",
         "sidebar_label": "Protractor plugin",
+        "custom_edit_url": "https://github.com/ng-apimock/protractor-plugin/edit/master/docs/protractor-plugin.md",
         "description": "How do I use the protractor plugin for @ng-apimock?",
         "keywords": [
           "ng-apimock",
@@ -82,6 +87,7 @@
         "title": "Webdriverio service",
         "sidebar_label": "Webdriverio service",
         "description": "How do I use the wdio-ng-apimock-service for @ng-apimock?",
+        "custom_edit_url": "https://github.com/ng-apimock/webdriverio-plugin/edit/master/docs/wdio-ng-apimock-service.md",
         "keywords": [
           "ng-apimock",
           "core",
