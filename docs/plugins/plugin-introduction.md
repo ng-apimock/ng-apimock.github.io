@@ -3,7 +3,7 @@ id: plugin-introduction
 title: Plugin introduction
 sidebar_label: Introduction
 ---
-[@ng-apimock/core](https://github.com/ng-apimock/core) has multiple plugins that connect to the middelware and make all its features available.<br />
+[@ng-apimock/core](https://github.com/ng-apimock/core) has multiple plugins that connect to the middleware and make all its features available.<br />
 You can use these plugins for both:
  - local development
  - automated testing
