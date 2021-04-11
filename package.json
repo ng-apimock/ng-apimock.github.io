@@ -13,12 +13,12 @@
     "docs": "docusaurus docs:version 2.2.0"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-alpha.58",
-    "@docusaurus/plugin-google-analytics": "2.0.0-alpha.37",
-    "@docusaurus/preset-classic": "2.0.0-alpha.58",
+    "@docusaurus/core": "2.0.0-alpha.72",
+    "@docusaurus/plugin-google-analytics": "2.0.0-alpha.72",
+    "@docusaurus/preset-classic": "2.0.0-alpha.72",
     "clsx": "1.1.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react": "17.0.2",
+    "react-dom": "d17.0.2"
   },
   "browserslist": {
     "production": [

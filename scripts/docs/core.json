@@ -331,6 +331,56 @@
           "variables"
         ]
       }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "group": "api",
+      "path": "docs/api",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "record-requests.md",
+      "metadata": {
+        "id": "record-requests",
+        "title": "Record requests/responses",
+        "sidebar_label": "Record requests/responses",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/api/record-requests.md",
+        "description": "How do enable/disable recording requests/responses?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "mocks",
+          "request",
+          "recordings",
+          "response"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "group": "api",
+      "path": "docs/api",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "get-recordings.md",
+      "metadata": {
+        "id": "get-recordings",
+        "title": "Get recordings",
+        "sidebar_label": "Get recordings",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/api/get-recordings.md",
+        "description": "How do I get recordings?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "mocks",
+          "request",
+          "recordings",
+          "response"
+        ]
+      }
     }
   ],
   "sidebar": {
@@ -345,7 +395,9 @@
       "api/delete-variable",
       "api/select-preset",
       "api/reset-mocks-to-default",
-      "api/set-mocks-to-passThrough"
+      "api/set-mocks-to-passThrough",
+      "api/record-requests",
+      "api/get-recordings"
     ]
   }
 }
