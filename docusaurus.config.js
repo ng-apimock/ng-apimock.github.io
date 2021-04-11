@@ -3,12 +3,12 @@ module.exports = {
     tagline: 'Scenario based api mocking',
     url: 'https://your-docusaurus-test-site.com',
     baseUrl: '/',
-    onBrokenLinks: 'throw',
+    onBrokenLinks: 'warn',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/logo.svg',
     organizationName: 'ng-apimock',
     projectName: 'core',
-    plugins: ['@docusaurus/plugin-google-analytics'],
+    plugins: [],
     scripts: [
         {
             src:
@@ -29,8 +29,8 @@ module.exports = {
             },
             items: [
                 {
-                    to: 'docs/',
-                    activeBasePath: 'docs',
+                    to: 'docs/installation',
+                    activeBasePath: 'docs/installation',
                     label: 'Docs',
                     position: 'left',
                 },
@@ -111,7 +111,6 @@ module.exports = {
             '@docusaurus/preset-classic',
             {
                 docs: {
-                    homePageId: 'installation',
                     sidebarPath: require.resolve('./sidebars.js'),
                     showLastUpdateAuthor: true,
                     editUrl:
