@@ -3,6 +3,8 @@ module.exports = {
     tagline: 'Scenario based api mocking',
     url: 'https://your-docusaurus-test-site.com',
     baseUrl: '/',
+    onBrokenLinks: 'throw',
+    onBrokenMarkdownLinks: 'warn',
     favicon: 'img/logo.svg',
     organizationName: 'ng-apimock',
     projectName: 'core',
@@ -15,7 +17,6 @@ module.exports = {
         }
     ],
     themeConfig: {
-        disableDarkMode: true,
         googleAnalytics: {
             trackingID: 'UA-171656203-1'
         },
@@ -26,7 +27,7 @@ module.exports = {
                 src: 'img/logo.svg',
                 srcDark: 'img/logo_dark.svg',
             },
-            links: [
+            items: [
                 {
                     to: 'docs/',
                     activeBasePath: 'docs',

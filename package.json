@@ -18,7 +18,8 @@
     "@docusaurus/preset-classic": "2.0.0-alpha.72",
     "clsx": "1.1.1",
     "react": "17.0.2",
-    "react-dom": "d17.0.2"
+    "react-dom": "17.0.2",
+    "request": "2.88.2"
   },
   "browserslist": {
     "production": [
