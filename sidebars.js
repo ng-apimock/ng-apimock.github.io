@@ -8,7 +8,8 @@ module.exports = {
                 'mocks',
                 'variables',
                 'presets',
-                'docker'
+                'docker',
+                'debug'
             ]
         },
         {

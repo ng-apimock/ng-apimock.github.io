@@ -30,6 +30,31 @@
       "githubUrl": "https://github.com/ng-apimock/core",
       "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
       "branchName": "master",
+      "fileName": "debug.md",
+      "metadata": {
+        "id": "debug",
+        "title": "Debugging",
+        "sidebar_label": "Debugging",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/debug.md",
+        "description": "How do I debug @ng-apimock?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "getting started",
+          "mocks",
+          "variables",
+          "presets",
+          "debug"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "path": "docs",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
       "fileName": "mocks.md",
       "metadata": {
         "id": "mocks",
