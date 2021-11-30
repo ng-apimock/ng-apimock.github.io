@@ -61,7 +61,7 @@ module.exports = {
                     items: [
                         {
                             label: 'Getting started',
-                            to: 'docs/',
+                            to: 'docs/installation',
                         },
                         {
                             label: 'Plugins',

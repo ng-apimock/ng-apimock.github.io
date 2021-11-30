@@ -265,6 +265,32 @@
       "path": "docs/api",
       "githubUrl": "https://github.com/ng-apimock/core",
       "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
+      "branchName": "master",
+      "fileName": "create-preset.md",
+      "metadata": {
+        "id": "create-preset",
+        "title": "Create preset",
+        "sidebar_label": "Create preset",
+        "custom_edit_url": "https://github.com/ng-apimock/core/edit/master/docs/api/create-preset.md",
+        "description": "How do I create a preset?",
+        "keywords": [
+          "ng-apimock",
+          "core",
+          "api",
+          "select",
+          "create",
+          "preset",
+          "mocks",
+          "variables"
+        ]
+      }
+    },
+    {
+      "packageName": "@ng-apimock/core",
+      "group": "api",
+      "path": "docs/api",
+      "githubUrl": "https://github.com/ng-apimock/core",
+      "npmUrl": "https://www.npmjs.com/package/@ng-apimock/core",
 
       "branchName": "master",
       "fileName": "select-scenario.md",

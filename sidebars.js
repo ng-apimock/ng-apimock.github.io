@@ -34,6 +34,7 @@ module.exports = {
                 'api/set-variable',
                 'api/set-variables',
                 'api/delete-variable',
+                'api/create-preset',
                 'api/select-preset',
                 'api/reset-mocks-to-default',
                 'api/set-mocks-to-passThrough',
